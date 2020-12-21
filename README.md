@@ -1,1 +1,9 @@
-# kickstarter12
+What makes a Play a Success?
+Overview of Project
+After having Louise’s experience fundraising money from her own play, she is interested in the outcomes of other campaigns. Furthermore, she is specifically interested in how those campaigns faired in relation to their launch dates and funding goals. My goal is to analyze how these two factors affect the outcome of the campaign. To do so, I will break up the two problems into cases: Theater Outcomes by Launch Date and Theater Outcomes by Fundraising Goal. With that information, I will be able to create visuals that will guide my analysis.
+
+Case 1: Theater Outcomes by Launch Date 
+To analyze the theater outcomes by launch date, I created a pivot table whose rows were launch dates of the campaigns and columns were the number of successes, failures, or cancellations of those campaigns that corresponded to each specific date. However, launch dates were given in unix timestamp form. I had to convert the dates in unix timestamp form to a form that would give us more information. Ultimately, I made the units of the rows months and included a year filter. From the graph, I was able to determine that theater outcomes are most successful during the summer and least successful during the fall and winter. Cancellations remained steady throughout the year. However, the dataset only contains data from 2009 to 2020. I wasn’t able to get a full picture of how the theater outcomes changed by year released.
+
+Case 2: Theater Outcomes by Goals
+To analyze the theater outcomes by fundraising goals, I defined some intervals for fundraising goals, and then did some calculations to determine the percentages of success, failure, and cancellation for each individual fundraising goal interval. Then, I graphed the percentages of success, failure, and cancellation by each individual fundraising goal interval so that I could visualize the data. I noticed that the higher the campaigns fundraising goal, the lower the percentage of success of that campaign
